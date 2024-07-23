@@ -1,19 +1,33 @@
 {
-	"name": "@wonderium/browser-releases",
-	"version": "1.0.0",
-	"description": "Latest browser version details, including release dates.",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"scripts": {
-		"build": "tsc",
-		"format": "prettier --check 'src/**/*.{js,ts,tsx,json,md}'",
-		"format:write": "prettier --write 'src/**/*.{js,ts,tsx,json,md}'"
-	},
-	"author": "wonderium.dev",
-	"license": "CC0-1.0",
-	"devDependencies": {
-		"@types/node": "^20.14.11",
-		"prettier": "3.3.3",
-		"typescript": "^5.5.4"
-	}
+    "name": "@wonderium/browser-releases",
+    "version": "1.0.0",
+    "description": "Latest browser version details, including release dates.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --check 'src/**/*.{js,ts,tsx,json,md}'",
+        "format:write": "prettier --write 'src/**/*.{js,ts,tsx,json,md}'"
+    },
+    "author": "wonderium.dev",
+    "license": "CC0-1.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wonderium/browser-releases.git"
+    },
+    "keywords": [
+        "browser-releases",
+        "browser",
+        "releases",
+        "data",
+        "compatibility", 
+        "wonderium",
+        "wm"
+    ],
+    "homepage": "https://github.com/wonderium/browser-releases#readme",
+    "devDependencies": {
+        "@types/node": "^20.14.11",
+        "prettier": "3.3.3",
+        "typescript": "^5.5.4"
+    }
 }
