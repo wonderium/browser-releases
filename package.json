@@ -1,0 +1,19 @@
+{
+	"name": "@wonderium/browser-releases",
+	"version": "1.0.0",
+	"description": "Latest browser version details, including release dates.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"format": "prettier --check 'src/**/*.{js,ts,tsx,json,md}'",
+		"format:write": "prettier --write 'src/**/*.{js,ts,tsx,json,md}'"
+	},
+	"author": "wonderium.dev",
+	"license": "CC0-1.0",
+	"devDependencies": {
+		"@types/node": "^20.14.11",
+		"prettier": "3.3.3",
+		"typescript": "^5.5.4"
+	}
+}
