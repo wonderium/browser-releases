@@ -1,0 +1,36 @@
+#-------------------------- NPM --------------------------#
+.npmignore
+
+#------------------------ Node.js ------------------------#
+## dependency directories
+node_modules/
+## lock file
+package-lock.json
+
+#---------------------- Output files ---------------------#
+dist/
+
+#-------------------------- IDE --------------------------#
+## Intellij IDEA
+.idea/
+
+## Sublime Text
+*.sublime-workspace
+
+## VSCode
+.vscode/
+
+#----------------------- OS Files ------------------------#
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Linux
+*~
