@@ -11,4 +11,6 @@ export type ReleaseVersion = string | number;
 
 export type ReleaseDate = string;
 
-export type BrowserReleases = Record<Browser, Record<ReleaseVersion, ReleaseDate>>;
+export type BrowserVersions = Record<ReleaseVersion, ReleaseDate>;
+
+export type BrowserReleases = Record<Browser, BrowserVersions>;
